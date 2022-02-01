@@ -3,4 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
-body {}
+body {
+    margin: 10px;
+    background-color: rgb(181, 190, 181);
+    color: rgb(31, 34, 33);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+a {
+    display: block;
+    color: rgb(31, 34, 33);
+}
+
+a:hover {
+    color: rgb(99, 112, 126);
+}

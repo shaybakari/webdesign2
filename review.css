@@ -1,0 +1,31 @@
+/* Mobile and global*/
+* { /* clear broswer default*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px;
+    background-color: blanchedalmond;
+    color: brown;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* wider than mobile, 480px */
+
+@media only screen and (min-width:481px) {
+    body {
+        background-color: chocolate;
+        color: cornsilk;
+    }
+} /* end media q*/
+
+/* wider than tablet*/
+
+@media only screen and (min-width:761px) {
+    body {
+        background-color: darksalmon;
+        color: rgb(104, 85, 85);
+    }
+}/* end media q*/
